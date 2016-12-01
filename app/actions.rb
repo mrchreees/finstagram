@@ -42,6 +42,30 @@ post '/signup' do
   end
 end
 
+get '/posts/new' do
+  erb(:"posts/new")
+end
+
+get '/posts/:id' do
+  @post = Post.find(params[:id]) #find the post with the ID from the URL
+  erb(:"posts/show")
+end
+
+post '/posts' do
+  photo_url = params[:photo_url]
+  
+  #instantiate new post
+  @post = Post.new({ photo_url: photo_url, user_id: current_user.id })
+  
+  #if @post validates, save
+  if @post.save
+    redirect(to('/'))
+  else
+  #if it doesn't validate, print error messages
+    erb(:'posts/new')
+  end
+end
+
 post '/login' do
   username    = params[:username]
   password    = params[:password]
