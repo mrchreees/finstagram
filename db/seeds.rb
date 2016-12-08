@@ -1,48 +1,48 @@
 sharky_j = User.create({ 
-    username: "sharky_j",
-    avatar_url: "http://naserca.com/images/sharky_j.jpg",
-    email: "sharky_j@example.com",
+    username: "walken_lova",
+    avatar_url: "http://www.famousbirthdays.com/headshots/christopher-walken-3.jpg",
+    email: "walkenlova@cowbell.com",
     password: "secret"
 })
 
 kirk_whalum = User.create({
-    username: "kirk_whalum",
-    avatar_url: "http://naserca.com/images/kirk_whalum.jpg",
-    email: "kirk_whalum@example.com",
+    username: "christopher",
+    avatar_url: "https://s-media-cache-ak0.pinimg.com/originals/a0/81/9f/a0819f2ca9598ac7aee25ef82c059424.jpg",
+    email: "christopher@walken.com",
     password: "secret"
 })
 
 marlin_peppa = User.create({
-    username: "marlin_peppa",
-    avatar_url: "http://naserca.com/images/marlin_peppa.jpg",
-    email: "marlin_peppa@example.com",
+    username: "mrchreees",
+    avatar_url: "http://www.thefreshfilms.com/actors/images/walken_christopher.jpg",
+    email: "christopher_walken@gmail.com",
     password: "secret"
 })
 
 
         
 posts = [{
-        user: sharky_j,
-        photo_url: "http://naserca.com/images/shark.png",
+        user: walken_lova,
+        photo_url: "https://i.ytimg.com/vi/51lFmdChOA0/maxresdefault.jpg",
         comments: [Comment.create({
-            user: sharky_j, 
-            text: "Out for the long weekend... too embarassed to show y'all the beach bod!"
+            user: walken_lova, 
+            text: "Two little mice!"
         })]
     },
     {
-        user: kirk_whalum,
-        photo_url: "http://naserca.com/images/whale.jpg",
+        user: christopher,
+        photo_url: "https://s-media-cache-ak0.pinimg.com/736x/85/82/21/8582217bb81be6d819bd2d5e64892e35.jpg",
         comments: [Comment.create({
-            user: kirk_whalum, 
-            text: "#weekendvibes"
+            user: christopher, 
+            text: "I hid this uncomfortable hunk of metal up my @$$ two years. Then, after seven years, I was sent home to my family. And now, little man, I give the watch to you."
         })]
     },   
     {
-        user: marlin_peppa,
-        photo_url: "http://naserca.com/images/marlin.jpg",
+        user: mrchreees,
+        photo_url: "https://s-media-cache-ak0.pinimg.com/originals/84/fd/7d/84fd7de047ded4e2eb113ec91f78ac86.jpg",
         comments: [Comment.create({
-            user: marlin_peppa, 
-            text: "#lunchtime! ;)",
+            user: mrchreees, 
+            text: "gotta have more cowbell! ;)",
         })]
     }
 ]
