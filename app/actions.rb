@@ -43,6 +43,7 @@ post '/signup' do
 end
 
 get '/posts/new' do
+  @post = Post.new
   erb(:"posts/new")
 end
 
@@ -62,7 +63,7 @@ post '/posts' do
     redirect(to('/'))
   else
   #if it doesn't validate, print error messages
-    erb(:'posts/new')
+    erb(:"posts/new")
   end
 end
 
