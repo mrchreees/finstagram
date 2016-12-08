@@ -1,6 +1,8 @@
 header {
     background-color: #244751;
     color: #e8fdff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body {
@@ -12,6 +14,14 @@ main {
     padding: 16px;
 }
 
+/*article {*/
+/*    padding-left: 30%;   */
+/*    padding-right: 30%;*/
+/*    padding-top: 50px;*/
+/*}*/
+
+}
+
 .post {
     margin-bottom: 48px;
 }
@@ -20,9 +30,9 @@ main {
     border-radius: 50%;
 }
 
-@media all and (max-width: 1000px){
+/*@media all and (max-width: 500px){*/
     
-    main {
-        width: 600px;
-    }
-}
+/*    article { {*/
+/*        width: 600px;*/
+/*    }*/
+/*}*/
