@@ -1,18 +1,18 @@
-sharky_j = User.create({ 
+walken_lova = User.create({ 
     username: "walken_lova",
     avatar_url: "http://www.famousbirthdays.com/headshots/christopher-walken-3.jpg",
     email: "walkenlova@cowbell.com",
     password: "secret"
 })
 
-kirk_whalum = User.create({
+christopher = User.create({
     username: "christopher",
     avatar_url: "https://s-media-cache-ak0.pinimg.com/originals/a0/81/9f/a0819f2ca9598ac7aee25ef82c059424.jpg",
     email: "christopher@walken.com",
     password: "secret"
 })
 
-marlin_peppa = User.create({
+mrchreees = User.create({
     username: "mrchreees",
     avatar_url: "http://www.thefreshfilms.com/actors/images/walken_christopher.jpg",
     email: "christopher_walken@gmail.com",
